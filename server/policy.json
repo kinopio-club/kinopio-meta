@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicGetPut",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": "arn:aws:s3:::kinopio-uploads/*"
+    },
+    {
+      "Sid": "Deny uploads with unsigned payloads",
+      "Effect": "Deny",
+      "Principal": "*",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::kinopio-uploads/*",
+      "Condition": {
+        "StringNotEquals": {
+          "s3:x-amz-content-sha256": "UNSIGNED-PAYLOAD"
+        }
+      }
+    }
+  ]
+}

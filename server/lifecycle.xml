@@ -1,0 +1,10 @@
+<LifecycleConfiguration>
+    <Rule>
+        <ID>delete-old-objects</ID>
+        <Prefix></Prefix>
+        <Status>Enabled</Status>
+        <Expiration>
+            <Days>3</Days>
+        </Expiration>
+    </Rule>
+</LifecycleConfiguration>

@@ -1,0 +1,172 @@
+{
+  "id": "DWCwVJNU8yu1cPs87BEQR",
+  "name": "Sofware Architecture",
+  "users": [
+    {
+      "id": "euGhpBrR9eBcjKnK16C_g",
+      "name": "Pirijan (Kinopio creator)",
+      "url": "pirijan-kinopio-creator--euGhpBrR9eBcjKnK16C_g",
+      "prefersDarkTheme": false,
+      "lastSpaceId": "85dWJ4_zDipSREM-nllXH",
+      "color": "#93f9e8",
+      "defaultConnectionTypeId": "",
+      "lastReadNewStuffId": "5799729",
+      "createdAt": "2019-11-14T18:16:51.317Z",
+      "updatedAt": "2020-01-01T17:48:06.487Z",
+      "userSpace":
+      {
+        "createdAt": "2019-12-30T16:39:37.604Z",
+        "updatedAt": "2019-12-30T16:39:37.604Z",
+        "userId": "euGhpBrR9eBcjKnK16C_g",
+        "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "I_hlUGmPDw8oCxclA7E8a",
+      "x": 42,
+      "y": 389,
+      "z": 8,
+      "name": "3rd party Integrations",
+      "frameId": 0,
+      "isRemoved": false,
+      "createdAt": "2019-12-30T17:32:51.518Z",
+      "updatedAt": "2019-12-30T17:33:09.392Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "tiJQY5ANJmYKHdykvZiG3",
+      "x": 46,
+      "y": 118,
+      "z": 2,
+      "name": "Client Web App",
+      "frameId": 0,
+      "isRemoved": false,
+      "createdAt": "2019-12-30T17:27:22.949Z",
+      "updatedAt": "2019-12-30T17:27:28.127Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "8jYwR0i2F55Y8XogXXsGI",
+      "x": 410,
+      "y": 58,
+      "z": 9,
+      "name": "Use this template to create a high-level software architecture diagram",
+      "frameId": 2,
+      "isRemoved": false,
+      "createdAt": "2019-12-30T17:26:20.325Z",
+      "updatedAt": "2019-12-30T17:34:44.407Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "FqdOq_9xrJHY7zO2GRezs",
+      "x": 242,
+      "y": 271,
+      "z": 8,
+      "name": "Backend Server App",
+      "frameId": 0,
+      "isRemoved": false,
+      "createdAt": "2019-12-30T17:27:32.591Z",
+      "updatedAt": "2019-12-30T17:33:31.718Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "TH9I1IYQkdwbMRpBikpXJ",
+      "x": 482,
+      "y": 367,
+      "z": 7,
+      "name": "Database",
+      "frameId": 0,
+      "isRemoved": false,
+      "createdAt": "2019-12-30T17:27:55.317Z",
+      "updatedAt": "2019-12-30T17:42:11.661Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "W6CseZ5jf1I3Pp5W6wQF1",
+      "x": 665,
+      "y": 247,
+      "z": 7,
+      "name": "The amount of detail to include should be based on the target audience (e.g. is it an intro for non-techincal people, or a guide for engineers?)",
+      "frameId": 2,
+      "isRemoved": false,
+      "createdAt": "2019-12-30T17:28:18.733Z",
+      "updatedAt": "2019-12-30T17:41:46.331Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    }
+  ],
+  "connections": [
+    {
+      "id": "Ng6vA1FLVtR1w6xAG895C",
+      "startCardId": "tiJQY5ANJmYKHdykvZiG3",
+      "endCardId": "FqdOq_9xrJHY7zO2GRezs",
+      "path": "m168,134 q90,40 224,153",
+      "labelIsVisible": true,
+      "createdAt": "2019-12-30T17:27:36.362Z",
+      "updatedAt": "2019-12-30T17:33:31.748Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR",
+      "connectionTypeId": "sLKkm2vOoNIOWUqGlDcrU"
+    },
+    {
+      "id": "7qmxOs2emf3xHOiCARkZI",
+      "startCardId": "I_hlUGmPDw8oCxclA7E8a",
+      "endCardId": "FqdOq_9xrJHY7zO2GRezs",
+      "path": "m220,405 q90,40 172,-118",
+      "labelIsVisible": true,
+      "createdAt": "2019-12-30T17:33:11.373Z",
+      "updatedAt": "2019-12-30T17:33:31.788Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR",
+      "connectionTypeId": "vS38sAT6Y5LjzcuOIOUI9"
+    },
+    {
+      "id": "dmQ9P5trK30CVsNI_EUBV",
+      "startCardId": "FqdOq_9xrJHY7zO2GRezs",
+      "endCardId": "TH9I1IYQkdwbMRpBikpXJ",
+      "path": "m392,287 q90,40 177,95",
+      "labelIsVisible": true,
+      "createdAt": "2019-12-30T17:30:15.621Z",
+      "updatedAt": "2019-12-30T17:42:12.168Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR",
+      "connectionTypeId": "7LbPdQ6nfTlYFi16s_A3L"
+    }
+  ],
+  "connectionTypes": [
+    {
+      "id": "sLKkm2vOoNIOWUqGlDcrU",
+      "name": "Private API",
+      "color": "#af96f7",
+      "createdAt": "2019-12-30T17:27:35.609Z",
+      "updatedAt": "2019-12-30T17:27:48.762Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "vS38sAT6Y5LjzcuOIOUI9",
+      "name": "Public API",
+      "color": "#bbffad",
+      "createdAt": "2019-12-30T17:33:10.507Z",
+      "updatedAt": "2019-12-30T17:33:15.782Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    },
+    {
+      "id": "7LbPdQ6nfTlYFi16s_A3L",
+      "name": "Cloud Host",
+      "color": "#edb5fc",
+      "createdAt": "2019-12-30T17:30:14.538Z",
+      "updatedAt": "2019-12-30T17:30:49.590Z",
+      "spaceId": "DWCwVJNU8yu1cPs87BEQR"
+    }
+  ],
+  "tags": [],
+  "customFields": [],
+  "cacheDate": 1577900887600,
+  "removedCards": [],
+  "url": "prairie-forest-DWCwVJNU8yu1cPs87BEQR",
+  "privacy": "closed",
+  "isRemoved": false,
+  "removedByUserId": null,
+  "contributorKey": "665a0f0b-ff07-40c1-b43d-2f937b1cb7c3",
+  "createdAt": "2019-11-16T14:01:29.862Z",
+  "updatedAt": "2019-12-30T19:20:18.014Z",
+  "userId": "euGhpBrR9eBcjKnK16C_g"
+}
